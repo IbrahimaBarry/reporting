@@ -1,0 +1,17 @@
+@import "~izitoast/dist/css/iziToast.min.css";
+@import "~bulma/bulma.sass";
+
+
+body {
+	line-height: 1.4em;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-weight: 300;
+}
+
+.hero.is-light .tabs.is-boxed li.is-active a, .hero.is-light .tabs.is-boxed li.is-active a:hover, .hero.is-light .tabs.is-toggle li.is-active a, .hero.is-light .tabs.is-toggle li.is-active a:hover {
+	background: white;
+	border: 0;
+	color: hsl(348, 100%, 61%)
+}
